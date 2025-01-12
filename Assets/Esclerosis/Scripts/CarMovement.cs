@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CarMovement : MonoBehaviour
 {
@@ -11,6 +9,7 @@ public class CarMovement : MonoBehaviour
     public AudioSource audioSource;
     private bool playAudioFailed = false;
     private bool transition = false;
+
     void Update()
     {
         if (name == "Bus_133")

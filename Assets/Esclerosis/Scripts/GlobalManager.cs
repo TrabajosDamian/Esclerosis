@@ -10,8 +10,6 @@ public class GlobalManager : Singleton_Template<GlobalManager>
     public string nextScene;
     public float time = 2400f;
     
-
-    // Update is called once per frame
     void Update()
     {
         

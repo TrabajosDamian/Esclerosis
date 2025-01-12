@@ -14,4 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Esclerosis/Scenes/WaitingRoom.unity
     guid: 2f52bbd23c64fe7408481a845b9a2f7e
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3bbec5fc6bf2928458eda46f4b4c1de6,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 761c3bec231ac884caa209b3310c0fa5,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
